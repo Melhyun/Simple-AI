@@ -22,7 +22,15 @@ footer {
   padding: 60px 0;
   border-radius: 10px;
   text-align: center;
-  background-color: #bef4fd;
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+}
+
+.answer {
+  margin: 20px 300px;
+  padding: 60px 0;
+  border-radius: 10px;
+  text-align: center;
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
 }
 
 .box {
@@ -30,4 +38,16 @@ footer {
   font-size: 15px;
   padding: 10px;
   border-radius: 15px;
+}
+
+.submit {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #cd9cf2;
+  color: white;
 }
