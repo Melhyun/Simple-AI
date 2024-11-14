@@ -1,9 +1,16 @@
 body {
-  background: linear-gradient(
-    106.5deg,
-    rgba(255, 215, 185, 0.91) 23%,
-    rgba(223, 159, 247, 0.8) 93%
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
   );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
 }
 
 h1 {
@@ -50,4 +57,26 @@ footer {
   cursor: pointer;
   background-color: #cd9cf2;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .form,
+  .answer {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .box,
+  .submit {
+    font-size: 18px;
+    width: 100%;
+    padding: 12px;
+  }
+
+  h1,
+  footer {
+    text-align: center;
+    font-size: 1.2em;
+  }
 }
